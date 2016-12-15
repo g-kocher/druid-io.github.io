@@ -80,7 +80,7 @@ java `cat conf-quickstart/druid/middleManager/jvm.config | xargs` -cp "conf-quic
 You should see a log message printed out for each service that starts up.
 
 Later on, if you'd like to stop the services, CTRL-C to exit from the running java processes. If you
-want a clean start after stopping the services, delete the `var` directory and run the `init` script again.
+want a clean start after stopping the services, delete the `var` and `log` directory and run the `init` script again.
 
 Once every service has started, you are now ready to load data.
 
